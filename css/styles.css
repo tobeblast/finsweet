@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgb(28, 30, 83);
+  height: 100dvh;
+}
+
+nav a {
+  color: rgb(187, 187, 203) !important;
+  font-weight: 500 !important;
+  line-height: 28px !important;
+}
+
+nav a.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.contact {
+  border: 2px solid rgb(187, 187, 203);
+  border-radius: 50px;
+  width: 150%;
+  text-align: center;
+  width: 150px;
+  text-wrap: nowrap;
+}
+
+.hero-div {
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+.hero-text p {
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 18px !important;
+}
+
+.contact.active {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+ul {
+  gap: 10px;
+}
+
+.view-work {
+  background-color: rgb(252, 217, 128);
+  border: none;
+  border-radius: 50px;
+  padding: 14px 28px;
+  color: rgb(28, 30, 83);
+}
+
+.view-work-pricing-div i {
+  font-size: 30px;
+}
+
+.how-we-work,
+.featuers-div {
+  background-color: rgb(244, 246, 252);
+}
+
+.how-we-work-div h2,
+h5 {
+  color: rgb(40, 41, 56);
+}
+
+.how-we-work-div h5 {
+  margin-top: 15px;
+}
+
+.how-we-work-div p {
+  color: rgb(137, 139, 149);
+}
+
+.overlay-pic-website {
+  background: linear-gradient(
+    to bottom right,
+    rgba(28, 30, 83, 0.42),
+    rgba(28, 30, 83, 1)
+  );
+  height: 100%;
+  width: 44%;
+}
+
+.overlay-web-design {
+  background: linear-gradient(
+    to bottom right,
+    rgba(28, 30, 83, 0.42),
+    rgba(28, 30, 83, 1)
+  );
+  height: 100%;
+  width: 100%;
+  padding: 25% 10% 8% 10%;
+}
+
+.work-hub-div {
+  color: white;
+  padding: 65% 5% 8% 5%;
+}
+
+.work-hub-div h3,
+.overlay-web-design h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.eiusmod {
+  color: rgb(218, 218, 217);
+  line-height: 28px;
+}
+
+.view {
+  color: rgb(252, 217, 128);
+}
+
+.featuers-div,
+.features-container h6 {
+  color: rgb(40, 41, 56);
+}
+
+.features-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.features-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 64px;
+}
+
+.features-container h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.features-container i {
+  font-weight: 600;
+  font-size: 27px;
+  color: rgb(36, 5, 252);
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.features-container p {
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(124, 124, 123);
+}
+
+.testimonial-div {
+  background-color: rgb(249, 250, 253);
+}
+
+.what-our-client-says h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: rgb(40, 41, 56);
+}
+
+.what-our-client-says p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(124, 124, 123);
+}
+
+.testimony {
+  color: rgb(40, 41, 56);
+}
+
+.testimony h5 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: inherit;
+}
+
+.heading-link h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: rgb(40, 41, 56);
+}
+
+.accordion-div .accordion-tag button {
+  color: rgb(40, 41, 56) !important;
+}
+
+.accordion-div .accordion-tag span {
+  color: royalblue;
+}
+
+.image-part {
+  height: 596px;
+}
+
+.overlay-part {
+  background: rgba(28, 30, 83, 0.5);
+  height: 100%;
+}
+
+.overlay-part h1 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.form-part {
+  background-color: rgb(28, 30, 83);
+}
+
+.form-part h5 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.form-part p {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.form-part input {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  outline: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.form-part input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-part .send-an-inquiry {
+  border: none;
+  background-color: rgb(252, 217, 128);
+  padding: 14px 28px;
+  color: rgb(28, 30, 83);
+  width: 100%;
+  margin-top: 7%;
+}
+
+.our-blog h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.our-blog,
+.our-blog a p {
+  color: rgba(40, 41, 56, 1) !important;
+}
+
+.date,
+p {
+  color: rgb(105, 106, 113);
+  font-weight: 500;
+}
+
+.our-blog h6 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+footer {
+  background-color: rgb(28, 30, 58);
+}
+
+.footer-logo-part p {
+  width: 75%;
+}
+
+.lets-talk-part h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.lets-talk-part p {
+  color: rgb(201, 203, 208);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 75%;
+}
+
+.contact-me {
+  background-color: rgb(252, 217, 128);
+  padding: 20px;
+  width: 38%;
+}
+
+.contact-me h3 {
+  color: rgb(40, 41, 56);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-nav,
+.copywrite p {
+  color: rgba(40, 41, 56, 1) !important;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+
+  .hero-div {
+    flex-direction: column;
+    padding: 20px 0px 50px 0;
+  }
+
+  .hero-div .hero-text {
+    text-align: center;
+    margin-bottom: 5%;
+    width: 100% !important;
+  }
+
+  .view-work-pricing-div {
+    justify-content: center;
+  }
+
+  .hero-div .hero-image {
+    width: 100% !important;
+  }
+
+  .how-we-work-div {
+    flex-direction: column;
+  }
+
+  .overlay-pic-website {
+    width: 94%;
+    height: 100%;
+  }
+
+  .work-hub-div {
+    padding: 25% 5% 8% 5%;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    text-align: center;
+  }
+
+  .heading-link {
+    text-align: center;
+  }
+
+  .inquiry-section {
+    flex-direction: column;
+  }
+
+  .image-part {
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .form-part {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .overlay-part {
+    text-align: center;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .footer-logo-lets-talk {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .lets-talk-part,
+  .footer-logo-part p {
+    width: 100% !important;
+  }
+
+  .lets-talk-part h2 {
+    font-size: 40px;
+  }
+
+  .contact-me {
+    width: 70%;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start !important;
+  }
+
+  .links {
+    flex-direction: column;
+    text-align: start;
+    margin-left: 0 !important;
+    align-items: start !important;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-div .hero-text {
+    text-align: center;
+    margin-bottom: 5%;
+    width: 100% !important;
+    padding: 0 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .view-work-pricing-div {
+    flex-direction: column;
+    row-gap: 25px !important;
+  }
+
+  .hero-div .hero-image {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+
+  .work-hub-div {
+    padding: 10% 5% 8% 5%;
+  }
+
+  .view-our-project-text-div {
+    flex-direction: column;
+  }
+
+  .work-hub-div h3,
+  .overlay-web-design h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .eiusmod {
+    color: rgb(218, 218, 217);
+    line-height: 20px;
+  }
+
+  .overlay-pic-website {
+    width: 88%;
+    height: 100%;
+  }
+
+  .features-container {
+    text-align: center;
+  }
+
+  .features-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .swiper-icon {
+    margin-top: 50px;
+  }
+
+  .what-our-client-says h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .testimony h5 {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .overlay-part h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .image-part {
+    height: 465px;
+  }
+
+  .form-part input {
+    padding: 15px 20px;
+    margin-top: 4%;
+  }
+
+  .our-blog h2 {
+    font-size: 35px;
+    line-height: 54%;
+    text-align: center;
+  }
+
+  .our-blog h6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contact-me {
+    width: 100%;
+    flex-direction: column;
+    align-items: start !important;
+  }
+
+  .contact-part {
+    margin-top: 20px;
+  }
+}
