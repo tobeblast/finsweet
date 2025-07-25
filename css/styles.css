@@ -16,6 +16,10 @@ header {
   height: 100dvh;
 }
 
+nav {
+  background-color: rgb(28, 30, 83);
+}
+
 nav a {
   color: rgb(187, 187, 203) !important;
   font-weight: 500 !important;
@@ -336,6 +340,170 @@ footer {
   color: rgba(40, 41, 56, 1) !important;
 }
 
+/* About Us Styles */
+
+.about-us-hero {
+  gap: 140px;
+}
+
+.about-us-hero-text-area h1 {
+  color: rgb(40, 41, 56);
+  font-size: 40px;
+}
+
+.about-us-hero-text-area p {
+  width: 120%;
+}
+
+.goal-text {
+  background-color: rgb(244, 245, 245);
+  gap: 120px;
+}
+
+.goal-text small {
+  font-weight: 500;
+  color: rgb(40, 41, 56);
+}
+
+.goal-text h3 {
+  color: rgb(40, 41, 56);
+}
+
+.goal-text p {
+  width: 80%;
+}
+
+.goal-image img {
+  height: 400px;
+}
+
+.process-we-follow h2,
+.process-we-follow h6 {
+  color: rgb(40, 41, 56);
+  font-size: 40px;
+}
+
+.process-we-follow h6 {
+  line-height: 36px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(40, 41, 56);
+}
+
+.mission-and-vision-section {
+  background-color: rgb(238, 244, 250);
+}
+
+.mission-text small {
+  font-weight: 500;
+  color: rgb(40, 41, 56);
+}
+
+.mission-and-vision-section h3 {
+  color: rgb(40, 41, 56);
+}
+
+.mission {
+  gap: 50px;
+}
+
+.mission p {
+  width: 80%;
+}
+
+.vision {
+  gap: 170px;
+  margin-bottom: 30px;
+}
+
+.vision p {
+  width: 95%;
+}
+
+.benefit-of-working-with-us h2 {
+  color: rgb(40, 41, 56);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.benefits i {
+  color: royalblue;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.benefits h6 {
+  color: rgb(40, 41, 56);
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.benefits-item {
+  background-color: rgb(244, 246, 252);
+  padding: 23px;
+}
+
+.supporters-div h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(40, 41, 56, 1);
+}
+
+.our-team-div {
+  background-color: rgb(244, 246, 252);
+}
+
+.our-team img {
+  object-fit: cover;
+}
+
+.team-member {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 250px;
+}
+
+.team-member h6 {
+  color: rgb(40, 41, 56);
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.team-member img {
+  overflow: hidden;
+}
+
+.team-member img:hover {
+  cursor: pointer;
+}
+
+.social-links {
+  top: 75px;
+  border-radius: 0 0 80px 80px;
+  background: linear-gradient(
+    to bottom,
+    rgba(164, 157, 209, 0.25),
+    rgba(93, 73, 225, 0.72),
+    rgba(82, 57, 250, 0.9)
+  );
+}
+
+.social-links:hover {
+  cursor: pointer;
+}
+
+.social-links-div.hidden {
+  display: none;
+}
+
+.our-team-section {
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -435,6 +603,61 @@ footer {
     margin-left: 0 !important;
     align-items: start !important;
     margin-top: 25px;
+  }
+
+  /* About Us Section */
+  .about-us-hero {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 50px;
+  }
+
+  .about-us-hero-text-area p {
+    width: 100%;
+  }
+
+  .fous-section-improvement {
+    flex-direction: column;
+  }
+
+  .fous-section-improvement p {
+    width: 100%;
+  }
+
+  .goal-image img {
+    height: 100%;
+  }
+
+  .mission {
+    row-gap: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vision p,
+  .mission p {
+    width: 100%;
+  }
+
+  .vision {
+    margin-top: 30px;
+    row-gap: 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .benefits {
+    flex-direction: column;
+    row-gap: 20px !important;
+  }
+
+  .our-team-section {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .team-member {
+    width: 48%;
   }
 }
 
@@ -541,5 +764,9 @@ footer {
 
   .contact-part {
     margin-top: 20px;
+  }
+
+  .team-member {
+    width: 95%;
   }
 }
