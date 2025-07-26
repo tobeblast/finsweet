@@ -504,6 +504,112 @@ footer {
   justify-content: space-between;
 }
 
+/* Pricing Section */
+.pricing-text h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.pricing-text p {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.price-quantity h3 {
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(40, 41, 56);
+  text-wrap: nowrap;
+}
+
+.price-quantity p {
+  color: royalblue;
+  text-wrap: nowrap;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.card-div {
+  background-color: rgb(244, 246, 252);
+  border-radius: 10px;
+  width: 400px;
+  height: 580px;
+  padding: 30px 20px;
+}
+
+.card-div.middle {
+  background-color: rgb(41, 43, 93);
+}
+
+.card-text .landing-page-div h6 {
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(40, 41, 56);
+  font-weight: 500;
+}
+
+.card-text .landing-page-div p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.play-button {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 14px solid #a5eacf;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+  border-radius: 15px;
+}
+
+.play-button-2 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 14px solid rgb(168, 170, 176);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+  border-radius: 15px;
+}
+
+.play-button-with-list p {
+  color: rgb(40, 41, 56);
+}
+
+.play-button-with-list p {
+  font-size: 19px;
+}
+
+.diff-color p {
+  color: rgb(105, 106, 113) !important;
+}
+
+.get-started-btn button {
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(40, 41, 56);
+  color: white;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 15%;
+}
+
+.get-started-btn.first {
+  margin-top: 4%;
+}
+
+.get-started-btn.yellow button {
+  background-color: rgb(252, 217, 128);
+  color: rgb(40, 41, 56);
+}
+
+.text-yellow {
+  color: rgb(252, 217, 128) !important;
+}
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -659,6 +765,28 @@ footer {
   .team-member {
     width: 48%;
   }
+
+  /* Pricing Section */
+
+  .pricing-div p {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .card-div {
+    width: 80%;
+    height: 100%;
+    padding: 35px 60px;
+  }
+
+  .price-quantity p {
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -768,5 +896,10 @@ footer {
 
   .team-member {
     width: 95%;
+  }
+
+  .card-div {
+    width: 100%;
+    padding: 35px 20px;
   }
 }
