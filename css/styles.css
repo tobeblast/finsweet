@@ -610,6 +610,32 @@ footer {
 .text-yellow {
   color: rgb(252, 217, 128) !important;
 }
+
+/* Features Section */
+
+.features-content {
+  gap: 58px;
+}
+
+.freelencer-text small {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.freelencer-text h3 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.quick-delivery-div {
+  background-color: rgb(255, 251, 242);
+}
+
+.free-revision {
+  background-color: rgb(244, 246, 252);
+}
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -787,6 +813,25 @@ footer {
   .price-quantity p {
     margin-left: 10px;
   }
+
+  /* Features Section */
+  .features-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .free-revision .features-content,
+  .quick-delivery-div .features-content {
+    flex-direction: column-reverse;
+  }
+
+  .freelencer-text {
+    width: 100% !important;
+  }
+
+  .freelencer-image {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -845,13 +890,17 @@ footer {
     line-height: 40px;
   }
 
+  .heading-link h3 {
+    line-height: 40px;
+  }
+
   .swiper-icon {
     margin-top: 50px;
   }
 
   .what-our-client-says h3 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 43px;
   }
 
   .testimony h5 {
@@ -901,5 +950,14 @@ footer {
   .card-div {
     width: 100%;
     padding: 35px 20px;
+  }
+
+  .freelencer-text h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .features-content {
+    row-gap: 35px;
   }
 }
