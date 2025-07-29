@@ -642,8 +642,15 @@ footer {
 .form-text h2 {
   color: rgb(40, 41, 56);
   font-weight: 600;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 43px;
+  line-height: 60px;
+}
+
+.form-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(124, 124, 133);
+  line-height: 28px;
 }
 
 .form-div {
@@ -704,6 +711,32 @@ footer {
   gap: 130px;
 }
 
+/* Blog Page */
+
+.blog-hero-section h2 {
+  color: rgb(40, 41, 56);
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 60px;
+}
+
+.blog-hero-section small {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(40, 41, 56);
+}
+
+.blog-hero-section p {
+  color: rgb(124, 124, 133);
+}
+
+.blog-hero-section p,
+.blog-hero-section a {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -900,6 +933,12 @@ footer {
   .freelencer-image {
     width: 100% !important;
   }
+
+  /* Blog  */
+  .blog-hero-section h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1033,5 +1072,11 @@ footer {
   .flex-form {
     flex-direction: column;
     row-gap: 0;
+  }
+
+  /* Blog */
+  .blog-hero-section h2 {
+    font-size: 30px;
+    line-height: 35px;
   }
 }
