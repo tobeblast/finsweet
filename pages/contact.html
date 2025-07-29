@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <header>
+    <!-- Header Section -->
+    <header class="bg-white h-auto">
       <nav class="navbar navbar-expand-lg py-4">
         <div class="container">
           <a class="navbar-brand text-white" href="../index.html">{Finsweet</a>
@@ -73,6 +74,66 @@
         </div>
       </nav>
     </header>
+
+    <!-- Main Section -->
+    <main class="container my-5">
+      <div class="d-flex align-items-center justify-content-center text-center">
+        <div class="form-text">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore.
+          </p>
+        </div>
+      </div>
+      <div class="form-div">
+        <form action="submit" class="form">
+          <div class="d-flex align-items-center flex-form">
+            <div class="name-email">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="input"
+                placeholder="Enter your name"
+              />
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                class="input"
+                id="subject"
+                placeholder="Provide context"
+              />
+            </div>
+            <div class="email-subject">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                class="input"
+                placeholder="Enter your email"
+              />
+
+              <label for="select-subject">Subject</label>
+              <input
+                type="text"
+                class="input"
+                id="select-subject"
+                placeholder="Select subject"
+              />
+            </div>
+          </div>
+          <label for="message">Message</label><br />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write your question here"
+            class="textarea"
+          ></textarea>
+          <button type="submit" class="send-message">Send Message</button>
+        </form>
+      </div>
+    </main>
     <!-- Footer Section -->
     <footer>
       <div class="footer-div container pt-5">

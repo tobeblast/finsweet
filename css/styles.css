@@ -636,6 +636,74 @@ footer {
 .free-revision {
   background-color: rgb(244, 246, 252);
 }
+
+/* Contact Us Section */
+
+.form-text h2 {
+  color: rgb(40, 41, 56);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.form-div {
+  background-color: rgb(244, 246, 252);
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form-div .form label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 5px;
+}
+
+.form-div .form input {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.form-div .form .textarea {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 17px;
+  height: 150px;
+}
+
+.form-div .form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.form-div .form button {
+  background-color: rgba(40, 41, 56, 1);
+  color: rgba(244, 246, 252, 1);
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  margin-top: 20px;
+}
+
+.flex-form {
+  gap: 130px;
+}
+
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -959,5 +1027,11 @@ footer {
 
   .features-content {
     row-gap: 35px;
+  }
+
+  /* Contact Us */
+  .flex-form {
+    flex-direction: column;
+    row-gap: 0;
   }
 }
