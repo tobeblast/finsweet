@@ -13,12 +13,10 @@
       href="../asset/favicon-32x32.png"
       type="image/x-icon"
     />
-
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <!-- Header Section -->
-    <header class="bg-white h-auto">
+    <header>
       <nav class="navbar navbar-expand-lg py-4">
         <div class="container">
           <a class="navbar-brand text-white" href="../index.html">{Finsweet</a>
@@ -57,15 +55,15 @@
                 <a class="nav-link" href="../pages/pricing.html">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="../pages/blog.html"
-                  >Blog</a
+                  href="../pages/faq.html"
+                  >FAQ</a
                 >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/blog.html">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link contact" href="../pages/contact.html"
@@ -77,79 +75,6 @@
         </div>
       </nav>
     </header>
-
-    <!-- Main Section -->
-    <main class="container py-3">
-      <div class="privacy text-center mt-5">
-        <h2>Privacy Policy</h2>
-        <p class="mb-0">
-          When you’re ready to go beyond prototyping in Figma, Webflow’s ready
-          to help you bring your
-        </p>
-      </div>
-      <!-- our-blog section  -->
-      <div class="d-flex align-items-center justify-content-center">
-        <div class="our-blog py-5 container read-more-blog">
-          <h2 class="mb-3">Lorem ipsum dolor.</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-            <span class="text-primary">Excepteur sint occaecat</span> cupidatat
-            non proident.
-          </p>
-          <p>
-            sunt in culpa qui officia deserunt mollit anim id est laborum. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <h2 class="mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat
-            <span class="text-primary"> cupidatat</span>
-            non proident. Dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris.
-          </p>
-          <ul>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-              </p>
-            </li>
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-          </p>
-        </div>
-      </div>
-    </main>
-
     <!-- Footer Section -->
     <footer>
       <div class="footer-div container pt-5">
@@ -197,9 +122,10 @@
           class="footer-nav d-flex align-items-center justify-content-between container py-4"
         >
           <div class="copywrite">
-<a href="./privacy-policy.html" class="text-decoration-none">
+            <a href="./privacy-policy.html" class="text-decoration-none">
               <p class="mb-0">Copyright 2022, Finsweet.com</p>
-            </a>          </div>
+            </a>
+          </div>
           <ul
             class="links list-unstyled ms-auto d-flex align-items-center justify-content-between gap-3"
           >
