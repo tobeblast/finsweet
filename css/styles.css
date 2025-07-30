@@ -1079,4 +1079,8 @@ footer {
     font-size: 30px;
     line-height: 35px;
   }
+
+  .read-more-blog h2 {
+    line-height: 45px;
+  }
 }
