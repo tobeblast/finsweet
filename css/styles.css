@@ -737,6 +737,67 @@ footer {
   line-height: 28px;
   font-weight: 400;
 }
+
+/* Work Section */
+
+.work-hero-section .we-help {
+  width: 65%;
+  margin-left: 17%;
+}
+
+.work-hero-section-div {
+  background-color: rgb(244, 246, 252);
+}
+
+.work-category {
+  cursor: pointer;
+}
+
+.work-category.clicked {
+  color: royalblue;
+}
+
+.works h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: rgb(40, 41, 56);
+}
+
+.lets-build h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 64px;
+  color: rgb(40, 41, 56);
+}
+
+.lets-build button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 55px;
+}
+
+.works a p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(40, 41, 56);
+}
+
+.design-case h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: rgb(40, 41, 56);
+}
+
+.design-case h6 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgb(40, 41, 56);
+}
+
 @media (max-width: 768px) {
   header {
     height: auto;
@@ -939,6 +1000,12 @@ footer {
     font-size: 38px;
     line-height: 48px;
   }
+
+  /* Work Section */
+  .work-hero-section .we-help {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1082,5 +1149,14 @@ footer {
 
   .read-more-blog h2 {
     line-height: 45px;
+  }
+
+  /* Work Section */
+  .work-category-div {
+    flex-direction: column;
+    justify-content: left !important;
+    align-items: start !important;
+    row-gap: 0 !important;
+    padding: 0 !important;
   }
 }
