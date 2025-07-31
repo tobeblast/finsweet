@@ -8,6 +8,7 @@ const formEl = document.querySelector(".form");
 // About Us Section
 imageEl.forEach((img, index) => {
   img.addEventListener("click", () => {
+    socialLinksEl.forEach((link) => link.classList.add("hidden"));
     socialLinksEl[index].classList.toggle("hidden");
   });
 });
