@@ -1006,6 +1006,24 @@ footer {
     width: 100%;
     margin-left: 0;
   }
+
+  .deliverable {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 8px;
+  }
+
+  .deliverable p {
+    margin-bottom: 0;
+  }
+
+  .work-category-div {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start !important;
+    row-gap: 10px !important;
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1154,9 +1172,9 @@ footer {
   /* Work Section */
   .work-category-div {
     flex-direction: column;
-    justify-content: left !important;
-    align-items: start !important;
-    row-gap: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
     padding: 0 !important;
+    text-align: center !important;
   }
 }
