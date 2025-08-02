@@ -30,6 +30,10 @@ nav a.active {
   color: rgb(255, 255, 255) !important;
 }
 
+i {
+  cursor: pointer;
+}
+
 .contact {
   border: 2px solid rgb(187, 187, 203);
   border-radius: 50px;
